@@ -12,6 +12,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .bungee-regular {
@@ -23,4 +24,30 @@ body{
 :root{
     --salmao: #de7356;
     --text: #fff;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    z-index: 999;
+    transition: all 1s ease-in-out;
+    animation: decima 1s ease-in-out;
+}
+
+@keyframes decima {
+    0%{
+        transform: translateY(-100px);
+    }
+    
+    
+}
+
+section{
+    
 }
