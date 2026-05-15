@@ -174,15 +174,15 @@ footer.ft{
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    min-height: 70px;
+    min-height: 70vh;
 }
 
 .card{
-    width: 300px;
+    width: 400px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 200px;
+
 }

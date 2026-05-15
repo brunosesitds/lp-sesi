@@ -32,6 +32,7 @@ const observer = new IntersectionObserver(entries => {
             cards.forEach(card => {
                 card.classList.remove('visible')
             });
+        }
     })
 }, {threshold: 0.2})
 
